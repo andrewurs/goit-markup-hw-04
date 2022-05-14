@@ -22,10 +22,18 @@
                     <li class="item"><a href="#contacts" class="site-nav-link">Контакты</a></li>
                 </ul>
             </nav>
-            <!-- header contacts -->
+    <!-- header contacts -->
             <ul class="header-contacts">
-                <li class="item"><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@devstudio.com" class="header-contact">
+                    <svg class="icon" width="16" height="12">
+                        <use href="./img/Icons/symbol-defs.svg#envelope"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="header-contact">
+                    <svg class="icon" width="10" height="16">
+                        <use href="./img/Icons/symbol-defs.svg#smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -41,10 +49,10 @@
                     <li class="button-sec"><button type="button" class="button-secondary">Дизайн</button></li>
                     <li class="button-sec"><button type="button" class="button-secondary">Маркетинг</button></li>
                 </ul>
-               <!--Products-->
+    <!--Products-->
                 <ul class="product">
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img  class="product-img" src="./img/techno.jpg" width="370" alt="laptop">
                             <div class="card-content">
                                 <h3 class="product-name">Технокряк</h3>
@@ -53,7 +61,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/poster.jpg" width="370" alt="basketball players">
                             <div class="card-content">
                                 <h3 class="product-name">Постер New Orlean vs Golden Star</h3>
@@ -62,7 +70,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/restaurant.jpg" width="370" alt="fish">
                             <div class="card-content">
                                 <h3 class="product-name">Ресторан Seafood</h3>
@@ -71,7 +79,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/prime.jpg" width="370" alt="headphones">
                             <div class="card-content">
                                 <h3 class="product-name">Проект Prime</h3>
@@ -80,7 +88,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/boxes.jpg" width="370" alt="boxes">
                             <div class="card-content">
                                 <h3 class="product-name">Проект Boxes</h3>
@@ -89,7 +97,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/borders.jpg" width="370" alt="pc monitor">
                             <div class="card-content">
                                 <h3 class="product-name">Inspiration has no Borders</h3>
@@ -98,7 +106,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/limited.jpg" width="370" alt="magazine">
                             <div class="card-content">
                                 <h3 class="product-name">Издание Limited Edition</h3>
@@ -107,7 +115,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/lab.jpg" width="370" alt="label">
                             <div class="card-content">
                                 <h3 class="product-name">Проект LAB</h3>
@@ -116,7 +124,7 @@
                         </a>
                     </li>
                     <li class="product-card">
-                        <a href="">
+                        <a href="" class="portfolio-link link">
                             <img class="product-img" src="./img/business.jpg" width="370" alt="typing on laptop">
                             <div class="card-content">
                                 <h3 class="product-name">Growing Business</h3>
@@ -128,18 +136,55 @@
             </div>
         </section>
     </main>
-   <footer class="footer">
-                <div class="container footer">
-                    <a class="footer-logo" href="/"><span class="downlogo-part">Web</span>Studio</a>
-                    <address class="address">
-                        <ul class="footer-contacts" id="contacts">
-                            <li><a class="footer-address-map" href="https://goo.gl/maps/wizjQyX9kH2uUNJ5A" target="_blank"
-                                    rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                            <li><a class="footer-address" href="mailto:info@example.com">info@example.com</a></li>
-                            <li><a href="tel:+380991111111" class="footer-address">+38 099 111 11 11</a></li>
-                        </ul>
-                    </address>
-                </div>       
-            </footer>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+            <a class="footer-logo" href="/"><span class="downlogo-part">Web</span>Studio</a>
+            <address class="address">
+                <ul class="footer-contacts" id="contacts">
+                    <li><a class="footer-address-map" href="https://goo.gl/maps/wizjQyX9kH2uUNJ5A" target="_blank"
+                            rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a class="footer-address" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="footer-address">+38 099 111 11 11</a></li>
+                </ul>
+            </address>
+            </div>
+            <section class="footer-center">
+                <h2 class="join-title">присоединяйтесь</h2>
+                <div class="footer-social-icons">
+                <ul class="footer-icons-list list">
+                    <li class="footer-icon-item">
+                    <a href="" class="link footer-icon-link" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-icon" width="20" height="20">
+                        <use href="./img/Icons/symbol-defs.svg#instagram"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="footer-icon-item">
+                    <a href="" class="link footer-icon-link" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-icon" width="20" height="20">
+                        <use href="./img/Icons/symbol-defs.svg#twitter"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="footer-icon-item">
+                    <a href="" class="link footer-icon-link" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-icon" width="20" height="20">
+                        <use href="./img/Icons/symbol-defs.svg#facebook"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="footer-icon-item">
+                    <a href="" class="link footer-icon-link" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-icon" width="20" height="20">
+                        <use href="./img/Icons/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+            </section>
+        </div>       
+    </footer>
 </body>
 </html>
