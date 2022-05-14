@@ -470,6 +470,10 @@ footer {
 .footer-center {
   display: block;
 }
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .footer-social-icons {
   display: flex;
 }
@@ -494,6 +498,7 @@ footer {
 }
 .footer-icons-list {
   display: flex;
+  margin: 0px;
 }
 .footer-icon-item:not(:last-child) {
   margin-right: 10px;
